@@ -1,0 +1,23 @@
+PODS:
+  - PersonModel (0.1.0):
+    - XPRouter (~> 1.0.0)
+  - XPRouter (1.0.0)
+
+DEPENDENCIES:
+  - PersonModel (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - XPRouter
+
+EXTERNAL SOURCES:
+  PersonModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PersonModel: 4022a79e2a3ed883de196b9a2fa73b9a7163568a
+  XPRouter: 5baa3ed494acaa2671fed0ab141839f97b8bb351
+
+PODFILE CHECKSUM: 587d544084caea0e8c0f5eec69e94b34abb3a69a
+
+COCOAPODS: 1.5.3
