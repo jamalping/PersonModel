@@ -32,7 +32,7 @@
 		23604572EB3394A859E9367C /* Pods-PersonModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonModel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonModel_Example/Pods-PersonModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		320A6EC295C6BAD6E3765859 /* Pods-PersonModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonModel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonModel_Tests/Pods-PersonModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E56BE0665BA628CEDF6AC8A /* Pods_PersonModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		417BEF20BF24C3756EE7AC77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		417BEF20BF24C3756EE7AC77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PersonModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		85C5B85CFE79AD685426EC68 /* Pods-PersonModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonModel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonModel_Tests/Pods-PersonModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BE25BCC141C79DA67076EBC /* Pods_PersonModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C7A609C25D3E25CEBDB9723 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BBB226FBC0E1AF033ADAE152 /* PersonModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PersonModel.podspec; path = ../PersonModel.podspec; sourceTree = "<group>"; };
+		8C7A609C25D3E25CEBDB9723 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BBB226FBC0E1AF033ADAE152 /* PersonModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PersonModel.podspec; path = ../PersonModel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,10 +287,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PersonModel_Example/Pods-PersonModel_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PersonModel/PersonModel.framework",
+				"${BUILT_PRODUCTS_DIR}/XPRouter/XPRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersonModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XPRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
