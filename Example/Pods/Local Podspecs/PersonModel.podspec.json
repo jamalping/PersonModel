@@ -1,27 +1,28 @@
 {
   "name": "PersonModel",
-  "version": "0.1.0",
-  "summary": "A short description of PersonModel.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "PersonModel.",
+  "description": "this is PersonModel",
   "homepage": "https://github.com/jamalping/PersonModel",
   "license": {
     "type": "MIT",
-    "file": "LICENSE"
+    "file": "FILE_LICENSE"
   },
-  "authors": {
-    "jamalping": "420436097@qq.com"
+  "authors": "jamalpig",
+  "platforms": {
+    "ios": "8.0"
   },
   "source": {
     "git": "https://github.com/jamalping/PersonModel.git",
-    "tag": "0.1.0"
-  },
-  "platforms": {
-    "ios": "8.0"
+    "tag": "0.1.1"
   },
   "source_files": "PersonModel/Classes/**/*",
   "dependencies": {
     "XPRouter": [
-      "~> 1.0.0"
+
+    ],
+    "XPRouterPath": [
+
     ]
   }
 }

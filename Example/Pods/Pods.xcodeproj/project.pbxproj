@@ -7,454 +7,435 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043F208AB96332467114007122991065 /* PersonModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F1C00B5EB848EFF071BC507D602823 /* PersonModel-dummy.m */; };
-		0F1FC6B44BFFE7D0DCA2EFB0245B43A1 /* URLPatchComponentMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8C8D75A49C4E010DDD96B980F449D /* URLPatchComponentMatchResult.swift */; };
-		15141492A57B9B8D89A54D89B0B7A001 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69351E491F329A4DCB9C03611DD2CD /* URLConvertible.swift */; };
-		1B0D62E4742504C4688FD65E67A11A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FDC3852327ABA8CC28A09046349D7 /* Foundation.framework */; };
-		2701F9D3ADDBA2AAD7A6F3B24E850F1A /* XPRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AD64A8D47A12ED5F6832B1F7EA7007 /* XPRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		280C3BED0E23F392DA154A248C747132 /* URLRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE959A69B7FA44F19B7A2E47ED5BEB12 /* URLRouterDelegate.swift */; };
-		2D10AF9DDB6B7705589A21EE43D6C9E6 /* Pods-PersonModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F9B5F260ADF266D4257D95F5C44EB9 /* Pods-PersonModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		351D47D3C12CC840412D8C21259D2525 /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3A6534D46E454208887F68A97A440 /* URLRouter.swift */; };
-		3ECF42ABDEE95D58873F48BA810A0B68 /* PersonModelEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D6F7CBF9187BEFCA2310C7E654C8D /* PersonModelEntrance.swift */; };
-		40CD943A4144C647339E1D9E359CFB15 /* ModuleMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC465A12B230D25EDF8826FF219CA5F0 /* ModuleMediator.swift */; };
-		425D6544CF55BA1AC760CFC716B56B08 /* URLPathComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C76F28AA3726BA9D99ED99F7692DFB /* URLPathComponent.swift */; };
-		49B38F4BAB1D53B479B55742B945685D /* UIViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F588D6C329ED58B32C6C7F1A22C9F3A /* UIViewControllerType.swift */; };
-		4B09BF40675AF63B73D548F96E4D4172 /* URLMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F829EDF76F2B41CCB698FFA70AD154B4 /* URLMatchResult.swift */; };
-		4B3324B47899CBDB0A1BFDDA6764BFC5 /* Pods-PersonModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8877AEC9A8CE1CE5A677ED4157A8B0FE /* Pods-PersonModel_Example-dummy.m */; };
-		5ACC405031AB3AA1F1C31782EFCC5611 /* XPRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D24E5EF9FA75F062916E304B26DFDB /* XPRouter-dummy.m */; };
-		72BF7EBCEE34DEBCE8D824F0C66DE229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FDC3852327ABA8CC28A09046349D7 /* Foundation.framework */; };
-		769919FF0BC537149575FEEFEA3D451F /* ModuleLifeCycleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7817BFF51DB53F122B56AA92B68BDF /* ModuleLifeCycleEntry.swift */; };
-		7EC727A2782BF08C511B3761A484795F /* URLMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF346A27EAA510F0A8C4FD54C340A1 /* URLMatcher.swift */; };
-		86502FAD2418F7D190C44B77B1ABAF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FDC3852327ABA8CC28A09046349D7 /* Foundation.framework */; };
-		877CF4B0FA83BE7B498E575D81FF8459 /* ModuleMediatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987E4125A901F3D61FB467F2AC8D9A2 /* ModuleMediatorType.swift */; };
-		9075ABC9EE0D38DD40A0F7431C5AF952 /* XPRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2841A56FC2F68AC8AE82E3CEBC0D2E23 /* XPRouter.framework */; };
-		9630B0FA9461DA862D668824765BF2B8 /* PersonModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6B11E2EB36FD6EFE797EA4C55ECBB1 /* PersonModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A045FC9868D2EEC79E7C872E6F0C79CC /* Pods-PersonModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F6811CB783B8AE4EDE1874E28B4FAF /* Pods-PersonModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A53751035C923A19FA893595F81B7238 /* Pods-PersonModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24EC195DBA1ECB2D0B952F1A7316C09 /* Pods-PersonModel_Tests-dummy.m */; };
-		BBACBC524F15F915347698DE01D0DF34 /* URLRouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9FF25EDAC77C3CC7931C91F2CDC84 /* URLRouterType.swift */; };
-		C0812188372BD9EA46133FB1B5E09222 /* URLFallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F24F0154A5FF93337B8A44024FFA9 /* URLFallBack.swift */; };
-		C2EB66A184EA0CC979A238EBB709AB1A /* ModuleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82D584F8306568879CCD95DF270753 /* ModuleContext.swift */; };
-		C8EC6AA6D94C604CC81A7CF93EB9C817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FDC3852327ABA8CC28A09046349D7 /* Foundation.framework */; };
-		D3904D30587DDF8E860A9D1260DDABE9 /* URLPattern+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF307E501D60B4DD5F949D3D1BE1FC16 /* URLPattern+Generate.swift */; };
-		D83E1FD71F9381BAC07A5B0A98E56BF3 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AC345436B714D4D4C6D87E4BD98376 /* UIViewController+TopMostViewController.swift */; };
-		EACC626040CBEF18400159E7538DE5C8 /* ModuleLifeCycleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CB9439F1A4CB7522CD7DB08B5CA7E /* ModuleLifeCycleProtocol.swift */; };
-		F274019BC37E4AA6C0F593849DEC583A /* ModuleRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C5C3FF5A6E4272EE7C734672049BAB /* ModuleRegister.swift */; };
-		FB19C864210EF44D000BBD94 /* PersonModelPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19C863210EF44D000BBD94 /* PersonModelPath.swift */; };
-		FB19C868210EF4C8000BBD94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19C867210EF4C8000BBD94 /* LoginViewController.swift */; };
+		1364F189B62309B13CA05B787C84F763 /* ModuleMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361F549F4C88A73355E6ED31ACA9920 /* ModuleMediator.swift */; };
+		1E50D71411C976E32A2EBAC10E715738 /* XPRouterPath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E205CCF2AE56B2F7A28C9F89D079DAB /* XPRouterPath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EF728AB11754697218B9EDC2B32831 /* PersonModelPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FA412E80DE83D8681F2E5602495F7 /* PersonModelPath.swift */; };
+		2571CBF4A89384ECD25FB04A3EEEC9D0 /* URLPatchComponentMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE2C22D22AF5B9942BC3789D5EAD1D /* URLPatchComponentMatchResult.swift */; };
+		35CF916178F813E5DEA1E36BF9869575 /* XPRouterPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41723615090CCE8D2E302F8F1A36E0F /* XPRouterPath.swift */; };
+		39B2F1DF4B01FDCC8FFF7C4A8DBFAE77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A40816931C4E830786382F33432ADD1 /* LoginViewController.swift */; };
+		4B566221E2535FB278F0AB1A2896F69E /* XPRouterPath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC69DF4972CEEB32A29F54338ADE8A6 /* XPRouterPath-dummy.m */; };
+		4B9633F2D9F03B200A8A66C62CB93DB9 /* PersonModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F71A0C659EDF4F2FA62ADC3D54F1DD21 /* PersonModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2FB43E745BEF1A850D7AADCAFB436C /* ModuleLifeCycleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5A753E521F16568840B98C2BDD80 /* ModuleLifeCycleProtocol.swift */; };
+		5162D80FD036426DE537CE0E2EADC3C1 /* PersonModelEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2725B5DE9EEB79DEC3A50014F577784 /* PersonModelEntrance.swift */; };
+		5175D339101A2A8255E5BD788C0BBE5D /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EE82F7D8B9F50218EFAF2308085CA /* UIViewController+TopMostViewController.swift */; };
+		74263579579672A1F110B1D560EDCBFC /* XPRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 685C2927FAF29537D9B7AA01C64E6D0B /* XPRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F703BD2B2D26C83D9F4EA8A990CB440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EBCC19ACBEB689ED8676476D9EB4C5 /* Foundation.framework */; };
+		91F0474657C5B91955C6D5FC16B0AB33 /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2910776E2122F5EC74120393ADCBA9 /* URLRouter.swift */; };
+		9A19037A7A32C999176DF27A68E06F8A /* Pods-PersonModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3B7DD1D9ADFA573570A55ADA23D174 /* Pods-PersonModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEBD7F3C68B472D913D5545CE7A9CD9 /* ModuleRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84A08FDD7A1897380032106DF99C8 /* ModuleRegister.swift */; };
+		9D415FF0DC841661E78F45124BE33C0D /* URLPathComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1E9470AE9CF213B1559C1942FB569 /* URLPathComponent.swift */; };
+		9E7FF389552E197A8F7523358AF7AD7D /* Pods-PersonModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342D0352C9BB885A728A5CE41DE5B6C9 /* Pods-PersonModel_Example-dummy.m */; };
+		9F2019CAF50464C4F803E9A449FFA74E /* ModuleMediatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8A8BA1BC561D06B3E0C9DE46CC1FA /* ModuleMediatorType.swift */; };
+		9FFCE560DA73038DCB20F924546D4839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EBCC19ACBEB689ED8676476D9EB4C5 /* Foundation.framework */; };
+		A82F8213717F631CBD1BA3DF56593B7B /* URLRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72665BF1C9546336CE6A413054C22C12 /* URLRouterDelegate.swift */; };
+		A974E9A40F8E40F8A48FC811B288C47D /* URLFallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A43572F68A5EFC54427D3EE880BB16 /* URLFallBack.swift */; };
+		AC3F0E6DB44888E5C5771DC2CF5A07ED /* URLMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B536B72BA453AE2253E9ADACAD93F /* URLMatchResult.swift */; };
+		B102B83B664BAFC07E295121459A2C97 /* ModuleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C460169AB97E586F8B0F8BA1A322B4D /* ModuleContext.swift */; };
+		B388DC5DFAAAAFD4AB673A5AB4882AAD /* URLPattern+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AB597527B47806D57598186B082E5 /* URLPattern+Generate.swift */; };
+		C0A1B1E2751B1F576B7C0D026B68B656 /* URLRouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F8E91B8FC8FFAB47C920B955DC1E1 /* URLRouterType.swift */; };
+		C192527BB61B69E175865060E5F372B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EBCC19ACBEB689ED8676476D9EB4C5 /* Foundation.framework */; };
+		CC023FA04423813AA576106F9A1323C1 /* URLMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B75B42BC246D5AF065979E5291E629 /* URLMatcher.swift */; };
+		D611325BE4C2A1CA4C96BB4BECAA8FF6 /* UIViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD13065524BC0DB84034F721081B3B6 /* UIViewControllerType.swift */; };
+		DA864A5AF450B182E3866EC5F1DCA84B /* XPRouterPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39A88C51F717B725E79E4FEC6A2AB3C /* XPRouterPath.framework */; };
+		DCB8BE12696939CADECDAFBF1EFA721C /* PersonModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F787F391C233CA78FD38EA1413B89F8 /* PersonModel-dummy.m */; };
+		E2E71938471DC8EFAF5B17EFFA1DCF9A /* XPRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF3A8FAC90E790F88D7BAD562D02E7 /* XPRouter-dummy.m */; };
+		E80BBD843535C088384EE73BC1155FBA /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A4E37C146A0B5C03D5E4369371CD4 /* URLConvertible.swift */; };
+		F51BDB22EFBC776585F4A96F8C9B6934 /* XPRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0573D7CC089EDECFC29E059B8FB8BA86 /* XPRouter.framework */; };
+		F6989C6C1DFF0F2340F0F9D9987DAC8A /* ModuleLifeCycleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90D07CE51BB128BA5935CB9EE34DDA /* ModuleLifeCycleEntry.swift */; };
+		F8B567519905ED38F8BDAA4774699C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EBCC19ACBEB689ED8676476D9EB4C5 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E832ED1EE8A9031E253DB6F4C934F5D /* PBXContainerItemProxy */ = {
+		119C748FB620108C32F48C04A4846D17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C61E07EC233C3A60A544DBB279457E31;
-			remoteInfo = "Pods-PersonModel_Example";
-		};
-		659FDE4576768A7342482E332A7BCBF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EFA48119E04505450BAAE38B4B6816EB;
-			remoteInfo = XPRouter;
-		};
-		70D49221F323D4D73F689004CF6BC7E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EFA48119E04505450BAAE38B4B6816EB;
-			remoteInfo = XPRouter;
-		};
-		8620C8C82570CB0EA8A1A31744280F2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B31D9C0FC7EA8938ECFD5CF54B77DD51;
+			remoteGlobalIDString = B47E423BD24FCAF22AA86F29C574BDED;
 			remoteInfo = PersonModel;
+		};
+		4ED8781C952E7C059470568D468603AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1BC9B28859E3F2D293C833FD200984;
+			remoteInfo = XPRouterPath;
+		};
+		6ED0B40D3DB7E0C64B6750B20B3C5989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A58BB47608F6481C2AA1062172316573;
+			remoteInfo = XPRouter;
+		};
+		82DED927DFE8B754AC9EFF9A01218FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A58BB47608F6481C2AA1062172316573;
+			remoteInfo = XPRouter;
+		};
+		CEC146F214CC1B1DCDEA05EF94015C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1BC9B28859E3F2D293C833FD200984;
+			remoteInfo = XPRouterPath;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0402AD32C7DAB76F08B6AA367CDC7ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16AC345436B714D4D4C6D87E4BD98376 /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TopMostViewController.swift"; path = "XPRouter/Classes/UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
-		16C76F28AA3726BA9D99ED99F7692DFB /* URLPathComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPathComponent.swift; path = XPRouter/Classes/URLPathComponent.swift; sourceTree = "<group>"; };
-		1A3CB9439F1A4CB7522CD7DB08B5CA7E /* ModuleLifeCycleProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleLifeCycleProtocol.swift; path = XPRouter/Classes/ModuleLifeCycleProtocol.swift; sourceTree = "<group>"; };
-		20AD93C658EECDE9B7D70E89ED18F6D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C5C3FF5A6E4272EE7C734672049BAB /* ModuleRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleRegister.swift; path = XPRouter/Classes/ModuleRegister.swift; sourceTree = "<group>"; };
-		2841A56FC2F68AC8AE82E3CEBC0D2E23 /* XPRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D2F24F0154A5FF93337B8A44024FFA9 /* URLFallBack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLFallBack.swift; path = XPRouter/Classes/URLFallBack.swift; sourceTree = "<group>"; };
-		30A10EE166E494CFF5E54DED2B7CACE7 /* Pods-PersonModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		363FDC3852327ABA8CC28A09046349D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		47FA8ACAE5412F957F1EFCF601986A9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4987E4125A901F3D61FB467F2AC8D9A2 /* ModuleMediatorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMediatorType.swift; path = XPRouter/Classes/ModuleMediatorType.swift; sourceTree = "<group>"; };
-		58EEFC73897D17F035452265D0D7E52C /* Pods-PersonModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A0D6F7CBF9187BEFCA2310C7E654C8D /* PersonModelEntrance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonModelEntrance.swift; path = PersonModel/Classes/PersonModelEntrance.swift; sourceTree = "<group>"; };
-		62F9B5F260ADF266D4257D95F5C44EB9 /* Pods-PersonModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonModel_Example-umbrella.h"; sourceTree = "<group>"; };
-		64EDDD2248B4803E2A9FEDECD9D4DD74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D904C61D1B903C8F56532795A25CD80 /* Pods_PersonModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7102073009C60AB52EBC0D07C20652A5 /* Pods-PersonModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		74895CB32E8D3EF8201188734E955CA9 /* Pods-PersonModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		77582006A6A26EF9946C400D7B45F0A6 /* Pods-PersonModel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonModel_Example-resources.sh"; sourceTree = "<group>"; };
-		79B8C8D75A49C4E010DDD96B980F449D /* URLPatchComponentMatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPatchComponentMatchResult.swift; path = XPRouter/Classes/URLPatchComponentMatchResult.swift; sourceTree = "<group>"; };
-		7C6100F73C04166104ECD3F004D39234 /* Pods-PersonModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7F588D6C329ED58B32C6C7F1A22C9F3A /* UIViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerType.swift; path = XPRouter/Classes/UIViewControllerType.swift; sourceTree = "<group>"; };
-		7F68822F0A84E71E1A3B6042B338A701 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8877AEC9A8CE1CE5A677ED4157A8B0FE /* Pods-PersonModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonModel_Example-dummy.m"; sourceTree = "<group>"; };
-		8B6166ED3AB2F0CAA5CCED851562ABCE /* Pods_PersonModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FD3D74B4812D5874FCCDBE35256D549 /* PersonModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PersonModel-prefix.pch"; sourceTree = "<group>"; };
-		90F1C00B5EB848EFF071BC507D602823 /* PersonModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PersonModel-dummy.m"; sourceTree = "<group>"; };
-		9293B390A4781BC487A38F4EA8515D7D /* Pods-PersonModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94D2DEEF3243E48E821ED8E2D47E0D40 /* PersonModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PersonModel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B19DA950A4D6181FE11848B809C072C /* PersonModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PersonModel.xcconfig; sourceTree = "<group>"; };
-		9CEF346A27EAA510F0A8C4FD54C340A1 /* URLMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatcher.swift; path = XPRouter/Classes/URLMatcher.swift; sourceTree = "<group>"; };
-		A9B8643D03399AC2D7238FCA98BD06F5 /* Pods-PersonModel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonModel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B2F6811CB783B8AE4EDE1874E28B4FAF /* Pods-PersonModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonModel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B5CD16EFA739D0C2F3705CC1CC177828 /* XPRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPRouter.xcconfig; sourceTree = "<group>"; };
-		BA6B11E2EB36FD6EFE797EA4C55ECBB1 /* PersonModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PersonModel-umbrella.h"; sourceTree = "<group>"; };
-		BE959A69B7FA44F19B7A2E47ED5BEB12 /* URLRouterDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouterDelegate.swift; path = XPRouter/Classes/URLRouterDelegate.swift; sourceTree = "<group>"; };
-		BE9829EE9ED7BD087B00845125C2FD38 /* XPRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPRouter.modulemap; sourceTree = "<group>"; };
-		C2D24E5EF9FA75F062916E304B26DFDB /* XPRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPRouter-dummy.m"; sourceTree = "<group>"; };
-		C61868CA1C64366AE08D691D76279BDF /* Pods-PersonModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonModel_Example.modulemap"; sourceTree = "<group>"; };
-		CC465A12B230D25EDF8826FF219CA5F0 /* ModuleMediator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMediator.swift; path = XPRouter/Classes/ModuleMediator.swift; sourceTree = "<group>"; };
-		D26AEC1AFD8C7C93606E6F4785AFD227 /* Pods-PersonModel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonModel_Tests-resources.sh"; sourceTree = "<group>"; };
-		D50148BA18D00C8ACE6C26CAD5741D85 /* Pods-PersonModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonModel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB211B8AE2B3BEB555BBDF61BEDEADA0 /* PersonModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PersonModel.modulemap; sourceTree = "<group>"; };
-		DB69351E491F329A4DCB9C03611DD2CD /* URLConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLConvertible.swift; path = XPRouter/Classes/URLConvertible.swift; sourceTree = "<group>"; };
-		DB84729E6DC569C1222D52FA238BC50B /* XPRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouter-prefix.pch"; sourceTree = "<group>"; };
-		DF7817BFF51DB53F122B56AA92B68BDF /* ModuleLifeCycleEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleLifeCycleEntry.swift; path = XPRouter/Classes/ModuleLifeCycleEntry.swift; sourceTree = "<group>"; };
-		E0472E2A090E02B22DEA2A4ACFC13B6B /* Pods-PersonModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonModel_Tests.modulemap"; sourceTree = "<group>"; };
-		E2AD64A8D47A12ED5F6832B1F7EA7007 /* XPRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouter-umbrella.h"; sourceTree = "<group>"; };
-		E95C7502A6C43A3EB46E2CCC0F6A3F5D /* Pods-PersonModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED25999F06B9B14615CF5E5BD3AB6797 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE82D584F8306568879CCD95DF270753 /* ModuleContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleContext.swift; path = XPRouter/Classes/ModuleContext.swift; sourceTree = "<group>"; };
-		EF307E501D60B4DD5F949D3D1BE1FC16 /* URLPattern+Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLPattern+Generate.swift"; path = "XPRouter/Classes/URLPattern+Generate.swift"; sourceTree = "<group>"; };
-		F0EC64CB0584AA99113E26DD40A1EA5F /* Pods-PersonModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonModel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F1E9FF25EDAC77C3CC7931C91F2CDC84 /* URLRouterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouterType.swift; path = XPRouter/Classes/URLRouterType.swift; sourceTree = "<group>"; };
-		F24EC195DBA1ECB2D0B952F1A7316C09 /* Pods-PersonModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonModel_Tests-dummy.m"; sourceTree = "<group>"; };
-		F7DE85AA67D477B99D174C5DADA97F76 /* XPRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F829EDF76F2B41CCB698FFA70AD154B4 /* URLMatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatchResult.swift; path = XPRouter/Classes/URLMatchResult.swift; sourceTree = "<group>"; };
-		F85AE05A5A6F0D81B896885A897FE44E /* PersonModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersonModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB19C863210EF44D000BBD94 /* PersonModelPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonModelPath.swift; path = PersonModel/Classes/PersonModelPath.swift; sourceTree = "<group>"; };
-		FB19C867210EF4C8000BBD94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = PersonModel/Classes/LoginViewController.swift; sourceTree = "<group>"; };
-		FFB3A6534D46E454208887F68A97A440 /* URLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouter.swift; path = XPRouter/Classes/URLRouter.swift; sourceTree = "<group>"; };
+		0573D7CC089EDECFC29E059B8FB8BA86 /* XPRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3B7DD1D9ADFA573570A55ADA23D174 /* Pods-PersonModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonModel_Example-umbrella.h"; sourceTree = "<group>"; };
+		0DD13065524BC0DB84034F721081B3B6 /* UIViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerType.swift; path = XPRouter/Classes/UIViewControllerType.swift; sourceTree = "<group>"; };
+		133605903196B5CC71FED4D660625597 /* Pods-PersonModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17A43572F68A5EFC54427D3EE880BB16 /* URLFallBack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLFallBack.swift; path = XPRouter/Classes/URLFallBack.swift; sourceTree = "<group>"; };
+		2CADCAAB0C1CDC22378C6077C1F49871 /* Pods-PersonModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonModel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D98B1BB7C253C818C1C4A5CB58F32F7 /* PersonModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PersonModel-prefix.pch"; sourceTree = "<group>"; };
+		2E205CCF2AE56B2F7A28C9F89D079DAB /* XPRouterPath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouterPath-umbrella.h"; sourceTree = "<group>"; };
+		3361F549F4C88A73355E6ED31ACA9920 /* ModuleMediator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMediator.swift; path = XPRouter/Classes/ModuleMediator.swift; sourceTree = "<group>"; };
+		342D0352C9BB885A728A5CE41DE5B6C9 /* Pods-PersonModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonModel_Example-dummy.m"; sourceTree = "<group>"; };
+		3BBC5A753E521F16568840B98C2BDD80 /* ModuleLifeCycleProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleLifeCycleProtocol.swift; path = XPRouter/Classes/ModuleLifeCycleProtocol.swift; sourceTree = "<group>"; };
+		3F787F391C233CA78FD38EA1413B89F8 /* PersonModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PersonModel-dummy.m"; sourceTree = "<group>"; };
+		4C460169AB97E586F8B0F8BA1A322B4D /* ModuleContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleContext.swift; path = XPRouter/Classes/ModuleContext.swift; sourceTree = "<group>"; };
+		4EDB82F12750F2E348E31B62101830FF /* Pods-PersonModel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonModel_Example-resources.sh"; sourceTree = "<group>"; };
+		5A90D07CE51BB128BA5935CB9EE34DDA /* ModuleLifeCycleEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleLifeCycleEntry.swift; path = XPRouter/Classes/ModuleLifeCycleEntry.swift; sourceTree = "<group>"; };
+		5D2AB71978AD729A69946F0F197F130A /* XPRouterPath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPRouterPath.xcconfig; sourceTree = "<group>"; };
+		5E204178EE88E5D289E21E49E97C0367 /* PersonModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PersonModel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64A8A8BA1BC561D06B3E0C9DE46CC1FA /* ModuleMediatorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMediatorType.swift; path = XPRouter/Classes/ModuleMediatorType.swift; sourceTree = "<group>"; };
+		685C2927FAF29537D9B7AA01C64E6D0B /* XPRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouter-umbrella.h"; sourceTree = "<group>"; };
+		6D2910776E2122F5EC74120393ADCBA9 /* URLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouter.swift; path = XPRouter/Classes/URLRouter.swift; sourceTree = "<group>"; };
+		6D56143B8049F2308841AFA270A48DE3 /* Pods-PersonModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		72665BF1C9546336CE6A413054C22C12 /* URLRouterDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouterDelegate.swift; path = XPRouter/Classes/URLRouterDelegate.swift; sourceTree = "<group>"; };
+		775F8E91B8FC8FFAB47C920B955DC1E1 /* URLRouterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouterType.swift; path = XPRouter/Classes/URLRouterType.swift; sourceTree = "<group>"; };
+		79B75B42BC246D5AF065979E5291E629 /* URLMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatcher.swift; path = XPRouter/Classes/URLMatcher.swift; sourceTree = "<group>"; };
+		7A4E72D14A761B395E7CAD8E59949458 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8EE82F7D8B9F50218EFAF2308085CA /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TopMostViewController.swift"; path = "XPRouter/Classes/UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
+		7CF4D23CB7CC9CD0E8BD34BE02B977B7 /* XPRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPRouter.framework; path = XPRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE2C22D22AF5B9942BC3789D5EAD1D /* URLPatchComponentMatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPatchComponentMatchResult.swift; path = XPRouter/Classes/URLPatchComponentMatchResult.swift; sourceTree = "<group>"; };
+		8CEBB5C6D083AA3A341425B5C6EF206D /* Pods-PersonModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		924804A55B5BC96F622D39101B4C63A8 /* XPRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouter-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9531D4731D851ACE6BE1761A544AC44D /* XPRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPRouter.xcconfig; sourceTree = "<group>"; };
+		9759B8F6C247FAC671D5E515566E1041 /* XPRouterPath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouterPath-prefix.pch"; sourceTree = "<group>"; };
+		9A40816931C4E830786382F33432ADD1 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = PersonModel/Classes/LoginViewController.swift; sourceTree = "<group>"; };
+		9F4A4E37C146A0B5C03D5E4369371CD4 /* URLConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLConvertible.swift; path = XPRouter/Classes/URLConvertible.swift; sourceTree = "<group>"; };
+		A3E4514BBB063B8FA2D6F402E9EA3337 /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
+		A5B84A08FDD7A1897380032106DF99C8 /* ModuleRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleRegister.swift; path = XPRouter/Classes/ModuleRegister.swift; sourceTree = "<group>"; };
+		A727A6100D87609F6CA9D2E3266228E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AC0AB597527B47806D57598186B082E5 /* URLPattern+Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLPattern+Generate.swift"; path = "XPRouter/Classes/URLPattern+Generate.swift"; sourceTree = "<group>"; };
+		AC87B387CA84034636DECB3EDA1819CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC69DF4972CEEB32A29F54338ADE8A6 /* XPRouterPath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPRouterPath-dummy.m"; sourceTree = "<group>"; };
+		B83A540548D82E355DA49EB31E7AF5F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93A6C85F2D19E822CFE3D5D4F15FCE3 /* PersonModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PersonModel.framework; path = PersonModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2FA412E80DE83D8681F2E5602495F7 /* PersonModelPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonModelPath.swift; path = XPRouterPath/Classes/PersonModelPath.swift; sourceTree = "<group>"; };
+		BDF575F58B6D0171CA750298898A8053 /* PersonModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PersonModel.xcconfig; sourceTree = "<group>"; };
+		C1323EA0CC409ADA867227E25B4B103E /* Pods_PersonModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PersonModel_Example.framework; path = "Pods-PersonModel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EBCC19ACBEB689ED8676476D9EB4C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7A2A9B32E44D406E6D1DCCB07164045 /* XPRouterPath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPRouterPath.modulemap; sourceTree = "<group>"; };
+		CB00573A2D4F6F84AD284055B8F12973 /* XPRouterPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPRouterPath.framework; path = XPRouterPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B536B72BA453AE2253E9ADACAD93F /* URLMatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatchResult.swift; path = XPRouter/Classes/URLMatchResult.swift; sourceTree = "<group>"; };
+		CFE1614F3E5708DCC0E0B186CD093F81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1ADD260F56C3E5A8E2ED6D963800138 /* PersonModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PersonModel.modulemap; sourceTree = "<group>"; };
+		D2725B5DE9EEB79DEC3A50014F577784 /* PersonModelEntrance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonModelEntrance.swift; path = PersonModel/Classes/PersonModelEntrance.swift; sourceTree = "<group>"; };
+		D39A88C51F717B725E79E4FEC6A2AB3C /* XPRouterPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPRouterPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D944A81FE66907636CEFF8E2368D56FE /* Pods-PersonModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E328CF26E4993D824EEDC0F25ABAA8BE /* XPRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPRouter.modulemap; sourceTree = "<group>"; };
+		E41723615090CCE8D2E302F8F1A36E0F /* XPRouterPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XPRouterPath.swift; path = XPRouterPath/Classes/XPRouterPath.swift; sourceTree = "<group>"; };
+		F1BF3A8FAC90E790F88D7BAD562D02E7 /* XPRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPRouter-dummy.m"; sourceTree = "<group>"; };
+		F71A0C659EDF4F2FA62ADC3D54F1DD21 /* PersonModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PersonModel-umbrella.h"; sourceTree = "<group>"; };
+		F7A1E9470AE9CF213B1559C1942FB569 /* URLPathComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPathComponent.swift; path = XPRouter/Classes/URLPathComponent.swift; sourceTree = "<group>"; };
+		F9C9D9367FBD940F3CB38403C4D0F04E /* Pods-PersonModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonModel_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BF50B71B58AAD82486459AB399DDEBF /* Frameworks */ = {
+		06ED0D5F1EFA153AB036C7055C7FF9A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0D62E4742504C4688FD65E67A11A82 /* Foundation.framework in Frameworks */,
-				9075ABC9EE0D38DD40A0F7431C5AF952 /* XPRouter.framework in Frameworks */,
+				8F703BD2B2D26C83D9F4EA8A990CB440 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3F8361AD568A99000F60DDA4BF4D3A0 /* Frameworks */ = {
+		12A79022B694608C216FDF28CBA5971E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86502FAD2418F7D190C44B77B1ABAF0A /* Foundation.framework in Frameworks */,
+				C192527BB61B69E175865060E5F372B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E635B6CA205B605CC94C6EE4485C1ECD /* Frameworks */ = {
+		20322140AD8B45BDB19AD33B8AB68945 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EC6AA6D94C604CC81A7CF93EB9C817 /* Foundation.framework in Frameworks */,
+				F8B567519905ED38F8BDAA4774699C3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD9E259759336017EE9C012F7BAD48AB /* Frameworks */ = {
+		842040A00D8B241B6D00DC69287F32D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72BF7EBCEE34DEBCE8D824F0C66DE229 /* Foundation.framework in Frameworks */,
+				9FFCE560DA73038DCB20F924546D4839 /* Foundation.framework in Frameworks */,
+				F51BDB22EFBC776585F4A96F8C9B6934 /* XPRouter.framework in Frameworks */,
+				DA864A5AF450B182E3866EC5F1DCA84B /* XPRouterPath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D812480D3AE192D17D8C567B2173AB8 /* Frameworks */ = {
+		343D5201558254CDE947D0C54D98CF22 /* PersonModel */ = {
 			isa = PBXGroup;
 			children = (
-				2841A56FC2F68AC8AE82E3CEBC0D2E23 /* XPRouter.framework */,
-				5B722AB11B7E458CD711E07320500A4F /* iOS */,
+				9A40816931C4E830786382F33432ADD1 /* LoginViewController.swift */,
+				D2725B5DE9EEB79DEC3A50014F577784 /* PersonModelEntrance.swift */,
+				C6F7EC83047E0CEF6D7657E62179FA81 /* Pod */,
+				D6351ECC95CE6BE177C2EF5B7B0D8252 /* Support Files */,
+			);
+			name = PersonModel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		36D95195C2C6952AAF7D8CF38302A7AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74D9CF7AA4AD59C601B0F37F1D94C530 /* XPRouter */,
+				BF66E8B9DED264ECD8ADEDE26ADFD8C4 /* XPRouterPath */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47EEE916F09D7D6C2AD84301D4F964F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC87B387CA84034636DECB3EDA1819CF /* Info.plist */,
+				E328CF26E4993D824EEDC0F25ABAA8BE /* XPRouter.modulemap */,
+				9531D4731D851ACE6BE1761A544AC44D /* XPRouter.xcconfig */,
+				F1BF3A8FAC90E790F88D7BAD562D02E7 /* XPRouter-dummy.m */,
+				924804A55B5BC96F622D39101B4C63A8 /* XPRouter-prefix.pch */,
+				685C2927FAF29537D9B7AA01C64E6D0B /* XPRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XPRouter";
+			sourceTree = "<group>";
+		};
+		7135A076872294FE6E4C769843F28E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0573D7CC089EDECFC29E059B8FB8BA86 /* XPRouter.framework */,
+				D39A88C51F717B725E79E4FEC6A2AB3C /* XPRouterPath.framework */,
+				CD25FC2A0E6BB3CC6AD95D5773E36152 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		26E5625CF7C10DE6AE93E50586FF53B3 /* Pods-PersonModel_Tests */ = {
+		74D9CF7AA4AD59C601B0F37F1D94C530 /* XPRouter */ = {
 			isa = PBXGroup;
 			children = (
-				64EDDD2248B4803E2A9FEDECD9D4DD74 /* Info.plist */,
-				E0472E2A090E02B22DEA2A4ACFC13B6B /* Pods-PersonModel_Tests.modulemap */,
-				9293B390A4781BC487A38F4EA8515D7D /* Pods-PersonModel_Tests-acknowledgements.markdown */,
-				58EEFC73897D17F035452265D0D7E52C /* Pods-PersonModel_Tests-acknowledgements.plist */,
-				F24EC195DBA1ECB2D0B952F1A7316C09 /* Pods-PersonModel_Tests-dummy.m */,
-				A9B8643D03399AC2D7238FCA98BD06F5 /* Pods-PersonModel_Tests-frameworks.sh */,
-				D26AEC1AFD8C7C93606E6F4785AFD227 /* Pods-PersonModel_Tests-resources.sh */,
-				B2F6811CB783B8AE4EDE1874E28B4FAF /* Pods-PersonModel_Tests-umbrella.h */,
-				E95C7502A6C43A3EB46E2CCC0F6A3F5D /* Pods-PersonModel_Tests.debug.xcconfig */,
-				7102073009C60AB52EBC0D07C20652A5 /* Pods-PersonModel_Tests.release.xcconfig */,
+				4C460169AB97E586F8B0F8BA1A322B4D /* ModuleContext.swift */,
+				5A90D07CE51BB128BA5935CB9EE34DDA /* ModuleLifeCycleEntry.swift */,
+				3BBC5A753E521F16568840B98C2BDD80 /* ModuleLifeCycleProtocol.swift */,
+				3361F549F4C88A73355E6ED31ACA9920 /* ModuleMediator.swift */,
+				64A8A8BA1BC561D06B3E0C9DE46CC1FA /* ModuleMediatorType.swift */,
+				A5B84A08FDD7A1897380032106DF99C8 /* ModuleRegister.swift */,
+				7B8EE82F7D8B9F50218EFAF2308085CA /* UIViewController+TopMostViewController.swift */,
+				0DD13065524BC0DB84034F721081B3B6 /* UIViewControllerType.swift */,
+				9F4A4E37C146A0B5C03D5E4369371CD4 /* URLConvertible.swift */,
+				17A43572F68A5EFC54427D3EE880BB16 /* URLFallBack.swift */,
+				79B75B42BC246D5AF065979E5291E629 /* URLMatcher.swift */,
+				CD3B536B72BA453AE2253E9ADACAD93F /* URLMatchResult.swift */,
+				81CE2C22D22AF5B9942BC3789D5EAD1D /* URLPatchComponentMatchResult.swift */,
+				F7A1E9470AE9CF213B1559C1942FB569 /* URLPathComponent.swift */,
+				AC0AB597527B47806D57598186B082E5 /* URLPattern+Generate.swift */,
+				6D2910776E2122F5EC74120393ADCBA9 /* URLRouter.swift */,
+				72665BF1C9546336CE6A413054C22C12 /* URLRouterDelegate.swift */,
+				775F8E91B8FC8FFAB47C920B955DC1E1 /* URLRouterType.swift */,
+				47EEE916F09D7D6C2AD84301D4F964F0 /* Support Files */,
 			);
-			name = "Pods-PersonModel_Tests";
-			path = "Target Support Files/Pods-PersonModel_Tests";
+			name = XPRouter;
+			path = XPRouter;
 			sourceTree = "<group>";
 		};
-		3C7BC55FE867C3BB8E54A8CB4E0E9CDF /* Development Pods */ = {
+		75801ABE216802D6FD376E9F21E794BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B544DCD021D5E516C5D542FC3D03005B /* PersonModel */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		45BBEF162739C921704EA6E15466CC32 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0402AD32C7DAB76F08B6AA367CDC7ABD /* Info.plist */,
-				DB211B8AE2B3BEB555BBDF61BEDEADA0 /* PersonModel.modulemap */,
-				9B19DA950A4D6181FE11848B809C072C /* PersonModel.xcconfig */,
-				90F1C00B5EB848EFF071BC507D602823 /* PersonModel-dummy.m */,
-				8FD3D74B4812D5874FCCDBE35256D549 /* PersonModel-prefix.pch */,
-				BA6B11E2EB36FD6EFE797EA4C55ECBB1 /* PersonModel-umbrella.h */,
+				B83A540548D82E355DA49EB31E7AF5F4 /* Info.plist */,
+				C7A2A9B32E44D406E6D1DCCB07164045 /* XPRouterPath.modulemap */,
+				5D2AB71978AD729A69946F0F197F130A /* XPRouterPath.xcconfig */,
+				AFC69DF4972CEEB32A29F54338ADE8A6 /* XPRouterPath-dummy.m */,
+				9759B8F6C247FAC671D5E515566E1041 /* XPRouterPath-prefix.pch */,
+				2E205CCF2AE56B2F7A28C9F89D079DAB /* XPRouterPath-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PersonModel";
+			path = "../Target Support Files/XPRouterPath";
 			sourceTree = "<group>";
 		};
-		5588479ACD825BBA727FD9E1FBEE0288 /* Products */ = {
+		791FBAC0191EF4F1863E12EA0D710B03 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F85AE05A5A6F0D81B896885A897FE44E /* PersonModel.framework */,
-				6D904C61D1B903C8F56532795A25CD80 /* Pods_PersonModel_Example.framework */,
-				8B6166ED3AB2F0CAA5CCED851562ABCE /* Pods_PersonModel_Tests.framework */,
-				F7DE85AA67D477B99D174C5DADA97F76 /* XPRouter.framework */,
+				343D5201558254CDE947D0C54D98CF22 /* PersonModel */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		559BF85AA6283FBD2884A1780FB1CA05 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C007B194FABBE90BB4B9DBD8B7E3ED28 /* Pods-PersonModel_Example */,
-				26E5625CF7C10DE6AE93E50586FF53B3 /* Pods-PersonModel_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5B722AB11B7E458CD711E07320500A4F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				363FDC3852327ABA8CC28A09046349D7 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		76D210B72FF92B75AE1C3B02BCC7BF89 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7F68822F0A84E71E1A3B6042B338A701 /* LICENSE */,
-				94D2DEEF3243E48E821ED8E2D47E0D40 /* PersonModel.podspec */,
-				47FA8ACAE5412F957F1EFCF601986A9B /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3C7BC55FE867C3BB8E54A8CB4E0E9CDF /* Development Pods */,
-				0D812480D3AE192D17D8C567B2173AB8 /* Frameworks */,
-				DAF79E24C3EE8B7B22D5A75D963653A9 /* Pods */,
-				5588479ACD825BBA727FD9E1FBEE0288 /* Products */,
-				559BF85AA6283FBD2884A1780FB1CA05 /* Targets Support Files */,
+				791FBAC0191EF4F1863E12EA0D710B03 /* Development Pods */,
+				7135A076872294FE6E4C769843F28E6C /* Frameworks */,
+				36D95195C2C6952AAF7D8CF38302A7AC /* Pods */,
+				D540D1AFEB246B827DDBA730D211F8AF /* Products */,
+				A5B76C8DC9322BACC588007F08911B1F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9E45E8A75EF8F391F50A3DFE6E227B82 /* Support Files */ = {
+		A5B76C8DC9322BACC588007F08911B1F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ED25999F06B9B14615CF5E5BD3AB6797 /* Info.plist */,
-				BE9829EE9ED7BD087B00845125C2FD38 /* XPRouter.modulemap */,
-				B5CD16EFA739D0C2F3705CC1CC177828 /* XPRouter.xcconfig */,
-				C2D24E5EF9FA75F062916E304B26DFDB /* XPRouter-dummy.m */,
-				DB84729E6DC569C1222D52FA238BC50B /* XPRouter-prefix.pch */,
-				E2AD64A8D47A12ED5F6832B1F7EA7007 /* XPRouter-umbrella.h */,
+				A64EA715F1CE8DD12B0EC89C807F026E /* Pods-PersonModel_Example */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/XPRouter";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B544DCD021D5E516C5D542FC3D03005B /* PersonModel */ = {
+		A64EA715F1CE8DD12B0EC89C807F026E /* Pods-PersonModel_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5A0D6F7CBF9187BEFCA2310C7E654C8D /* PersonModelEntrance.swift */,
-				FB19C863210EF44D000BBD94 /* PersonModelPath.swift */,
-				FB19C867210EF4C8000BBD94 /* LoginViewController.swift */,
-				76D210B72FF92B75AE1C3B02BCC7BF89 /* Pod */,
-				45BBEF162739C921704EA6E15466CC32 /* Support Files */,
-			);
-			name = PersonModel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C007B194FABBE90BB4B9DBD8B7E3ED28 /* Pods-PersonModel_Example */ = {
-			isa = PBXGroup;
-			children = (
-				20AD93C658EECDE9B7D70E89ED18F6D2 /* Info.plist */,
-				C61868CA1C64366AE08D691D76279BDF /* Pods-PersonModel_Example.modulemap */,
-				30A10EE166E494CFF5E54DED2B7CACE7 /* Pods-PersonModel_Example-acknowledgements.markdown */,
-				74895CB32E8D3EF8201188734E955CA9 /* Pods-PersonModel_Example-acknowledgements.plist */,
-				8877AEC9A8CE1CE5A677ED4157A8B0FE /* Pods-PersonModel_Example-dummy.m */,
-				F0EC64CB0584AA99113E26DD40A1EA5F /* Pods-PersonModel_Example-frameworks.sh */,
-				77582006A6A26EF9946C400D7B45F0A6 /* Pods-PersonModel_Example-resources.sh */,
-				62F9B5F260ADF266D4257D95F5C44EB9 /* Pods-PersonModel_Example-umbrella.h */,
-				7C6100F73C04166104ECD3F004D39234 /* Pods-PersonModel_Example.debug.xcconfig */,
-				D50148BA18D00C8ACE6C26CAD5741D85 /* Pods-PersonModel_Example.release.xcconfig */,
+				7A4E72D14A761B395E7CAD8E59949458 /* Info.plist */,
+				F9C9D9367FBD940F3CB38403C4D0F04E /* Pods-PersonModel_Example.modulemap */,
+				133605903196B5CC71FED4D660625597 /* Pods-PersonModel_Example-acknowledgements.markdown */,
+				D944A81FE66907636CEFF8E2368D56FE /* Pods-PersonModel_Example-acknowledgements.plist */,
+				342D0352C9BB885A728A5CE41DE5B6C9 /* Pods-PersonModel_Example-dummy.m */,
+				2CADCAAB0C1CDC22378C6077C1F49871 /* Pods-PersonModel_Example-frameworks.sh */,
+				4EDB82F12750F2E348E31B62101830FF /* Pods-PersonModel_Example-resources.sh */,
+				0B3B7DD1D9ADFA573570A55ADA23D174 /* Pods-PersonModel_Example-umbrella.h */,
+				8CEBB5C6D083AA3A341425B5C6EF206D /* Pods-PersonModel_Example.debug.xcconfig */,
+				6D56143B8049F2308841AFA270A48DE3 /* Pods-PersonModel_Example.release.xcconfig */,
 			);
 			name = "Pods-PersonModel_Example";
 			path = "Target Support Files/Pods-PersonModel_Example";
 			sourceTree = "<group>";
 		};
-		DAF79E24C3EE8B7B22D5A75D963653A9 /* Pods */ = {
+		BF66E8B9DED264ECD8ADEDE26ADFD8C4 /* XPRouterPath */ = {
 			isa = PBXGroup;
 			children = (
-				DCC747F0FC88ABA56AD440F9E9E58A36 /* XPRouter */,
+				BC2FA412E80DE83D8681F2E5602495F7 /* PersonModelPath.swift */,
+				E41723615090CCE8D2E302F8F1A36E0F /* XPRouterPath.swift */,
+				75801ABE216802D6FD376E9F21E794BE /* Support Files */,
 			);
-			name = Pods;
+			name = XPRouterPath;
+			path = XPRouterPath;
 			sourceTree = "<group>";
 		};
-		DCC747F0FC88ABA56AD440F9E9E58A36 /* XPRouter */ = {
+		C6F7EC83047E0CEF6D7657E62179FA81 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EE82D584F8306568879CCD95DF270753 /* ModuleContext.swift */,
-				DF7817BFF51DB53F122B56AA92B68BDF /* ModuleLifeCycleEntry.swift */,
-				1A3CB9439F1A4CB7522CD7DB08B5CA7E /* ModuleLifeCycleProtocol.swift */,
-				CC465A12B230D25EDF8826FF219CA5F0 /* ModuleMediator.swift */,
-				4987E4125A901F3D61FB467F2AC8D9A2 /* ModuleMediatorType.swift */,
-				22C5C3FF5A6E4272EE7C734672049BAB /* ModuleRegister.swift */,
-				16AC345436B714D4D4C6D87E4BD98376 /* UIViewController+TopMostViewController.swift */,
-				7F588D6C329ED58B32C6C7F1A22C9F3A /* UIViewControllerType.swift */,
-				DB69351E491F329A4DCB9C03611DD2CD /* URLConvertible.swift */,
-				2D2F24F0154A5FF93337B8A44024FFA9 /* URLFallBack.swift */,
-				9CEF346A27EAA510F0A8C4FD54C340A1 /* URLMatcher.swift */,
-				F829EDF76F2B41CCB698FFA70AD154B4 /* URLMatchResult.swift */,
-				79B8C8D75A49C4E010DDD96B980F449D /* URLPatchComponentMatchResult.swift */,
-				16C76F28AA3726BA9D99ED99F7692DFB /* URLPathComponent.swift */,
-				EF307E501D60B4DD5F949D3D1BE1FC16 /* URLPattern+Generate.swift */,
-				FFB3A6534D46E454208887F68A97A440 /* URLRouter.swift */,
-				BE959A69B7FA44F19B7A2E47ED5BEB12 /* URLRouterDelegate.swift */,
-				F1E9FF25EDAC77C3CC7931C91F2CDC84 /* URLRouterType.swift */,
-				9E45E8A75EF8F391F50A3DFE6E227B82 /* Support Files */,
+				A3E4514BBB063B8FA2D6F402E9EA3337 /* FILE_LICENSE */,
+				5E204178EE88E5D289E21E49E97C0367 /* PersonModel.podspec */,
+				A727A6100D87609F6CA9D2E3266228E8 /* README.md */,
 			);
-			path = XPRouter;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CD25FC2A0E6BB3CC6AD95D5773E36152 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C3EBCC19ACBEB689ED8676476D9EB4C5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D540D1AFEB246B827DDBA730D211F8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B93A6C85F2D19E822CFE3D5D4F15FCE3 /* PersonModel.framework */,
+				C1323EA0CC409ADA867227E25B4B103E /* Pods_PersonModel_Example.framework */,
+				7CF4D23CB7CC9CD0E8BD34BE02B977B7 /* XPRouter.framework */,
+				CB00573A2D4F6F84AD284055B8F12973 /* XPRouterPath.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6351ECC95CE6BE177C2EF5B7B0D8252 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1614F3E5708DCC0E0B186CD093F81 /* Info.plist */,
+				D1ADD260F56C3E5A8E2ED6D963800138 /* PersonModel.modulemap */,
+				BDF575F58B6D0171CA750298898A8053 /* PersonModel.xcconfig */,
+				3F787F391C233CA78FD38EA1413B89F8 /* PersonModel-dummy.m */,
+				2D98B1BB7C253C818C1C4A5CB58F32F7 /* PersonModel-prefix.pch */,
+				F71A0C659EDF4F2FA62ADC3D54F1DD21 /* PersonModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PersonModel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		224C780B88375D2870362DD5836A98CB /* Headers */ = {
+		2795B3D1C6F0145BE4C17F1BE9224046 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A045FC9868D2EEC79E7C872E6F0C79CC /* Pods-PersonModel_Tests-umbrella.h in Headers */,
+				1E50D71411C976E32A2EBAC10E715738 /* XPRouterPath-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27901D39671D680256D9230BD11C3E1A /* Headers */ = {
+		576A924235B9965DF16652EA8C902895 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2701F9D3ADDBA2AAD7A6F3B24E850F1A /* XPRouter-umbrella.h in Headers */,
+				74263579579672A1F110B1D560EDCBFC /* XPRouter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD6D99BCB6D837E5662B924ACF2521DF /* Headers */ = {
+		929803BB439CA810E83486BD93AF9335 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9630B0FA9461DA862D668824765BF2B8 /* PersonModel-umbrella.h in Headers */,
+				4B9633F2D9F03B200A8A66C62CB93DB9 /* PersonModel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D650EBFD1A38BD352E8158759FC211A1 /* Headers */ = {
+		E892D688A34F332BACDC9606A84A5BE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D10AF9DDB6B7705589A21EE43D6C9E6 /* Pods-PersonModel_Example-umbrella.h in Headers */,
+				9A19037A7A32C999176DF27A68E06F8A /* Pods-PersonModel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3525B84C28F029C62D26735F512B8EB0 /* Pods-PersonModel_Tests */ = {
+		7D88F2F94AC3A62CCF8C6B5F67F4A908 /* Pods-PersonModel_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7477DCA2E8C47361B11A8E161D1DCD7E /* Build configuration list for PBXNativeTarget "Pods-PersonModel_Tests" */;
+			buildConfigurationList = DCAEC0F4B1253B98D62664827D47C2A6 /* Build configuration list for PBXNativeTarget "Pods-PersonModel_Example" */;
 			buildPhases = (
-				EF781AB305D220273F9F60FDB48EC0A0 /* Sources */,
-				E635B6CA205B605CC94C6EE4485C1ECD /* Frameworks */,
-				224C780B88375D2870362DD5836A98CB /* Headers */,
+				2A17D87388B6EFE39CF93787561C072C /* Sources */,
+				20322140AD8B45BDB19AD33B8AB68945 /* Frameworks */,
+				E892D688A34F332BACDC9606A84A5BE8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61BEB4F2CC9C45C2E8DD69232A9E672A /* PBXTargetDependency */,
-			);
-			name = "Pods-PersonModel_Tests";
-			productName = "Pods-PersonModel_Tests";
-			productReference = 8B6166ED3AB2F0CAA5CCED851562ABCE /* Pods_PersonModel_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B31D9C0FC7EA8938ECFD5CF54B77DD51 /* PersonModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4EAEF6360D3F006DACF99DFD678696C /* Build configuration list for PBXNativeTarget "PersonModel" */;
-			buildPhases = (
-				D7452798BA5E54BAA865586AFA8CCA00 /* Sources */,
-				3BF50B71B58AAD82486459AB399DDEBF /* Frameworks */,
-				AD6D99BCB6D837E5662B924ACF2521DF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35028E479F991DBD5FBA7FB1FBB0EDBE /* PBXTargetDependency */,
-			);
-			name = PersonModel;
-			productName = PersonModel;
-			productReference = F85AE05A5A6F0D81B896885A897FE44E /* PersonModel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C61E07EC233C3A60A544DBB279457E31 /* Pods-PersonModel_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F493FB187F538C4C3A63246489FB53DA /* Build configuration list for PBXNativeTarget "Pods-PersonModel_Example" */;
-			buildPhases = (
-				A0D6A4B3B16512D9F9416F6F9D02843C /* Sources */,
-				FD9E259759336017EE9C012F7BAD48AB /* Frameworks */,
-				D650EBFD1A38BD352E8158759FC211A1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5858096FFE88281D4187866EFE50542 /* PBXTargetDependency */,
-				2E3124703E5756CB6083B5DC2BA82097 /* PBXTargetDependency */,
+				882A330BBF729E4A32C87393A98A416D /* PBXTargetDependency */,
+				693FD26F8BB863DD68F21FDE17D0F81D /* PBXTargetDependency */,
+				7B8678D1EB34ACDA3DF4FBF1AB38671D /* PBXTargetDependency */,
 			);
 			name = "Pods-PersonModel_Example";
 			productName = "Pods-PersonModel_Example";
-			productReference = 6D904C61D1B903C8F56532795A25CD80 /* Pods_PersonModel_Example.framework */;
+			productReference = C1323EA0CC409ADA867227E25B4B103E /* Pods_PersonModel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EFA48119E04505450BAAE38B4B6816EB /* XPRouter */ = {
+		A58BB47608F6481C2AA1062172316573 /* XPRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38CFF5F728146DAD2054BB8C3B21E743 /* Build configuration list for PBXNativeTarget "XPRouter" */;
+			buildConfigurationList = A01D9C24D9B2C8387212159FB9E71E27 /* Build configuration list for PBXNativeTarget "XPRouter" */;
 			buildPhases = (
-				4F0BF13C3621DD84485267E3D674D451 /* Sources */,
-				A3F8361AD568A99000F60DDA4BF4D3A0 /* Frameworks */,
-				27901D39671D680256D9230BD11C3E1A /* Headers */,
+				B0BDA26FD9AA1F141650CA633074D41A /* Sources */,
+				06ED0D5F1EFA153AB036C7055C7FF9A2 /* Frameworks */,
+				576A924235B9965DF16652EA8C902895 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -462,7 +443,43 @@
 			);
 			name = XPRouter;
 			productName = XPRouter;
-			productReference = F7DE85AA67D477B99D174C5DADA97F76 /* XPRouter.framework */;
+			productReference = 7CF4D23CB7CC9CD0E8BD34BE02B977B7 /* XPRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B47E423BD24FCAF22AA86F29C574BDED /* PersonModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC2FFD1E1ABF800D7E3F6014DCA01EB /* Build configuration list for PBXNativeTarget "PersonModel" */;
+			buildPhases = (
+				A18BCA1FEFB662CC68321BD93A2D0D25 /* Sources */,
+				842040A00D8B241B6D00DC69287F32D5 /* Frameworks */,
+				929803BB439CA810E83486BD93AF9335 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D57681E76EB3258CDC658332A8EF3A7 /* PBXTargetDependency */,
+				F53A5E155F2A0E183D18EC75A2A68A08 /* PBXTargetDependency */,
+			);
+			name = PersonModel;
+			productName = PersonModel;
+			productReference = B93A6C85F2D19E822CFE3D5D4F15FCE3 /* PersonModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC1BC9B28859E3F2D293C833FD200984 /* XPRouterPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139DFB4B43801BB54DEEB05918EA0156 /* Build configuration list for PBXNativeTarget "XPRouterPath" */;
+			buildPhases = (
+				F2C6DF047B0EECD3379DF8806D7E6A22 /* Sources */,
+				12A79022B694608C216FDF28CBA5971E /* Frameworks */,
+				2795B3D1C6F0145BE4C17F1BE9224046 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPRouterPath;
+			productName = XPRouterPath;
+			productReference = CB00573A2D4F6F84AD284055B8F12973 /* XPRouterPath.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -482,205 +499,112 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5588479ACD825BBA727FD9E1FBEE0288 /* Products */;
+			productRefGroup = D540D1AFEB246B827DDBA730D211F8AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B31D9C0FC7EA8938ECFD5CF54B77DD51 /* PersonModel */,
-				C61E07EC233C3A60A544DBB279457E31 /* Pods-PersonModel_Example */,
-				3525B84C28F029C62D26735F512B8EB0 /* Pods-PersonModel_Tests */,
-				EFA48119E04505450BAAE38B4B6816EB /* XPRouter */,
+				B47E423BD24FCAF22AA86F29C574BDED /* PersonModel */,
+				7D88F2F94AC3A62CCF8C6B5F67F4A908 /* Pods-PersonModel_Example */,
+				A58BB47608F6481C2AA1062172316573 /* XPRouter */,
+				BC1BC9B28859E3F2D293C833FD200984 /* XPRouterPath */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F0BF13C3621DD84485267E3D674D451 /* Sources */ = {
+		2A17D87388B6EFE39CF93787561C072C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EB66A184EA0CC979A238EBB709AB1A /* ModuleContext.swift in Sources */,
-				769919FF0BC537149575FEEFEA3D451F /* ModuleLifeCycleEntry.swift in Sources */,
-				EACC626040CBEF18400159E7538DE5C8 /* ModuleLifeCycleProtocol.swift in Sources */,
-				40CD943A4144C647339E1D9E359CFB15 /* ModuleMediator.swift in Sources */,
-				877CF4B0FA83BE7B498E575D81FF8459 /* ModuleMediatorType.swift in Sources */,
-				F274019BC37E4AA6C0F593849DEC583A /* ModuleRegister.swift in Sources */,
-				D83E1FD71F9381BAC07A5B0A98E56BF3 /* UIViewController+TopMostViewController.swift in Sources */,
-				49B38F4BAB1D53B479B55742B945685D /* UIViewControllerType.swift in Sources */,
-				15141492A57B9B8D89A54D89B0B7A001 /* URLConvertible.swift in Sources */,
-				C0812188372BD9EA46133FB1B5E09222 /* URLFallBack.swift in Sources */,
-				7EC727A2782BF08C511B3761A484795F /* URLMatcher.swift in Sources */,
-				4B09BF40675AF63B73D548F96E4D4172 /* URLMatchResult.swift in Sources */,
-				0F1FC6B44BFFE7D0DCA2EFB0245B43A1 /* URLPatchComponentMatchResult.swift in Sources */,
-				425D6544CF55BA1AC760CFC716B56B08 /* URLPathComponent.swift in Sources */,
-				D3904D30587DDF8E860A9D1260DDABE9 /* URLPattern+Generate.swift in Sources */,
-				351D47D3C12CC840412D8C21259D2525 /* URLRouter.swift in Sources */,
-				280C3BED0E23F392DA154A248C747132 /* URLRouterDelegate.swift in Sources */,
-				BBACBC524F15F915347698DE01D0DF34 /* URLRouterType.swift in Sources */,
-				5ACC405031AB3AA1F1C31782EFCC5611 /* XPRouter-dummy.m in Sources */,
+				9E7FF389552E197A8F7523358AF7AD7D /* Pods-PersonModel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0D6A4B3B16512D9F9416F6F9D02843C /* Sources */ = {
+		A18BCA1FEFB662CC68321BD93A2D0D25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3324B47899CBDB0A1BFDDA6764BFC5 /* Pods-PersonModel_Example-dummy.m in Sources */,
+				39B2F1DF4B01FDCC8FFF7C4A8DBFAE77 /* LoginViewController.swift in Sources */,
+				DCB8BE12696939CADECDAFBF1EFA721C /* PersonModel-dummy.m in Sources */,
+				5162D80FD036426DE537CE0E2EADC3C1 /* PersonModelEntrance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7452798BA5E54BAA865586AFA8CCA00 /* Sources */ = {
+		B0BDA26FD9AA1F141650CA633074D41A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB19C868210EF4C8000BBD94 /* LoginViewController.swift in Sources */,
-				FB19C864210EF44D000BBD94 /* PersonModelPath.swift in Sources */,
-				043F208AB96332467114007122991065 /* PersonModel-dummy.m in Sources */,
-				3ECF42ABDEE95D58873F48BA810A0B68 /* PersonModelEntrance.swift in Sources */,
+				B102B83B664BAFC07E295121459A2C97 /* ModuleContext.swift in Sources */,
+				F6989C6C1DFF0F2340F0F9D9987DAC8A /* ModuleLifeCycleEntry.swift in Sources */,
+				4F2FB43E745BEF1A850D7AADCAFB436C /* ModuleLifeCycleProtocol.swift in Sources */,
+				1364F189B62309B13CA05B787C84F763 /* ModuleMediator.swift in Sources */,
+				9F2019CAF50464C4F803E9A449FFA74E /* ModuleMediatorType.swift in Sources */,
+				9CEBD7F3C68B472D913D5545CE7A9CD9 /* ModuleRegister.swift in Sources */,
+				5175D339101A2A8255E5BD788C0BBE5D /* UIViewController+TopMostViewController.swift in Sources */,
+				D611325BE4C2A1CA4C96BB4BECAA8FF6 /* UIViewControllerType.swift in Sources */,
+				E80BBD843535C088384EE73BC1155FBA /* URLConvertible.swift in Sources */,
+				A974E9A40F8E40F8A48FC811B288C47D /* URLFallBack.swift in Sources */,
+				CC023FA04423813AA576106F9A1323C1 /* URLMatcher.swift in Sources */,
+				AC3F0E6DB44888E5C5771DC2CF5A07ED /* URLMatchResult.swift in Sources */,
+				2571CBF4A89384ECD25FB04A3EEEC9D0 /* URLPatchComponentMatchResult.swift in Sources */,
+				9D415FF0DC841661E78F45124BE33C0D /* URLPathComponent.swift in Sources */,
+				B388DC5DFAAAAFD4AB673A5AB4882AAD /* URLPattern+Generate.swift in Sources */,
+				91F0474657C5B91955C6D5FC16B0AB33 /* URLRouter.swift in Sources */,
+				A82F8213717F631CBD1BA3DF56593B7B /* URLRouterDelegate.swift in Sources */,
+				C0A1B1E2751B1F576B7C0D026B68B656 /* URLRouterType.swift in Sources */,
+				E2E71938471DC8EFAF5B17EFFA1DCF9A /* XPRouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF781AB305D220273F9F60FDB48EC0A0 /* Sources */ = {
+		F2C6DF047B0EECD3379DF8806D7E6A22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53751035C923A19FA893595F81B7238 /* Pods-PersonModel_Tests-dummy.m in Sources */,
+				22EF728AB11754697218B9EDC2B32831 /* PersonModelPath.swift in Sources */,
+				4B566221E2535FB278F0AB1A2896F69E /* XPRouterPath-dummy.m in Sources */,
+				35CF916178F813E5DEA1E36BF9869575 /* XPRouterPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E3124703E5756CB6083B5DC2BA82097 /* PBXTargetDependency */ = {
+		693FD26F8BB863DD68F21FDE17D0F81D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XPRouter;
-			target = EFA48119E04505450BAAE38B4B6816EB /* XPRouter */;
-			targetProxy = 70D49221F323D4D73F689004CF6BC7E6 /* PBXContainerItemProxy */;
+			target = A58BB47608F6481C2AA1062172316573 /* XPRouter */;
+			targetProxy = 6ED0B40D3DB7E0C64B6750B20B3C5989 /* PBXContainerItemProxy */;
 		};
-		35028E479F991DBD5FBA7FB1FBB0EDBE /* PBXTargetDependency */ = {
+		7B8678D1EB34ACDA3DF4FBF1AB38671D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = XPRouter;
-			target = EFA48119E04505450BAAE38B4B6816EB /* XPRouter */;
-			targetProxy = 659FDE4576768A7342482E332A7BCBF0 /* PBXContainerItemProxy */;
+			name = XPRouterPath;
+			target = BC1BC9B28859E3F2D293C833FD200984 /* XPRouterPath */;
+			targetProxy = CEC146F214CC1B1DCDEA05EF94015C28 /* PBXContainerItemProxy */;
 		};
-		61BEB4F2CC9C45C2E8DD69232A9E672A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PersonModel_Example";
-			target = C61E07EC233C3A60A544DBB279457E31 /* Pods-PersonModel_Example */;
-			targetProxy = 3E832ED1EE8A9031E253DB6F4C934F5D /* PBXContainerItemProxy */;
-		};
-		E5858096FFE88281D4187866EFE50542 /* PBXTargetDependency */ = {
+		882A330BBF729E4A32C87393A98A416D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PersonModel;
-			target = B31D9C0FC7EA8938ECFD5CF54B77DD51 /* PersonModel */;
-			targetProxy = 8620C8C82570CB0EA8A1A31744280F2F /* PBXContainerItemProxy */;
+			target = B47E423BD24FCAF22AA86F29C574BDED /* PersonModel */;
+			targetProxy = 119C748FB620108C32F48C04A4846D17 /* PBXContainerItemProxy */;
+		};
+		8D57681E76EB3258CDC658332A8EF3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XPRouter;
+			target = A58BB47608F6481C2AA1062172316573 /* XPRouter */;
+			targetProxy = 82DED927DFE8B754AC9EFF9A01218FA3 /* PBXContainerItemProxy */;
+		};
+		F53A5E155F2A0E183D18EC75A2A68A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XPRouterPath;
+			target = BC1BC9B28859E3F2D293C833FD200984 /* XPRouterPath */;
+			targetProxy = 4ED8781C952E7C059470568D468603AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		101F1FF4CFA4B025CAB8701A9B221DA0 /* Debug */ = {
+		06CA7E7FBABBFA1A1D888E82FE150568 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5CD16EFA739D0C2F3705CC1CC177828 /* XPRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XPRouter/XPRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XPRouter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XPRouter/XPRouter.modulemap";
-				PRODUCT_MODULE_NAME = XPRouter;
-				PRODUCT_NAME = XPRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1703BAE119065A7CF441E28A08A0F809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D50148BA18D00C8ACE6C26CAD5741D85 /* Pods-PersonModel_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonModel_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonModel_Example/Pods-PersonModel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1B67C86CA63C27774347CC4348BC421F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E95C7502A6C43A3EB46E2CCC0F6A3F5D /* Pods-PersonModel_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonModel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonModel_Tests/Pods-PersonModel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		57B9FA77BE848D5219F6C09BD08AD245 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B19DA950A4D6181FE11848B809C072C /* PersonModel.xcconfig */;
+			baseConfigurationReference = BDF575F58B6D0171CA750298898A8053 /* PersonModel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -710,11 +634,10 @@
 			};
 			name = Debug;
 		};
-		86C610501B38B7E77B2ED5784D41363D /* Debug */ = {
+		0B8300D0169FDDEB33BF5F22E7A873B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C6100F73C04166104ECD3F004D39234 /* Pods-PersonModel_Example.debug.xcconfig */;
+			baseConfigurationReference = BDF575F58B6D0171CA750298898A8053 /* PersonModel.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -724,28 +647,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonModel_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PersonModel/PersonModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PersonModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonModel_Example/Pods-PersonModel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/PersonModel/PersonModel.modulemap";
+				PRODUCT_MODULE_NAME = PersonModel;
+				PRODUCT_NAME = PersonModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -798,7 +720,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -808,7 +730,209 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		2FD3EDB7B3DD0901DF0647E19E41E194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2AB71978AD729A69946F0F197F130A /* XPRouterPath.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPRouterPath/XPRouterPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPRouterPath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPRouterPath/XPRouterPath.modulemap";
+				PRODUCT_MODULE_NAME = XPRouterPath;
+				PRODUCT_NAME = XPRouterPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		571933444E35B9171DFF8A27D67D49ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2AB71978AD729A69946F0F197F130A /* XPRouterPath.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPRouterPath/XPRouterPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPRouterPath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPRouterPath/XPRouterPath.modulemap";
+				PRODUCT_MODULE_NAME = XPRouterPath;
+				PRODUCT_NAME = XPRouterPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7997521D6B5C8B8B25DE59A27C2F4A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D56143B8049F2308841AFA270A48DE3 /* Pods-PersonModel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonModel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonModel_Example/Pods-PersonModel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3851CB3A76ED32704B8A9616E664C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEBB5C6D083AA3A341425B5C6EF206D /* Pods-PersonModel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonModel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonModel_Example/Pods-PersonModel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAFBE6191D04B1FB3F83E7F896D281C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9531D4731D851ACE6BE1761A544AC44D /* XPRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPRouter/XPRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPRouter/XPRouter.modulemap";
+				PRODUCT_MODULE_NAME = XPRouter;
+				PRODUCT_NAME = XPRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0B5011140D1ABB66D902FC7825F0F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9531D4731D851ACE6BE1761A544AC44D /* XPRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPRouter/XPRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPRouter/XPRouter.modulemap";
+				PRODUCT_MODULE_NAME = XPRouter;
+				PRODUCT_NAME = XPRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -858,7 +982,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -866,150 +990,50 @@
 			};
 			name = Release;
 		};
-		DF2A767F890ED0552F955BF72A7BAE94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B19DA950A4D6181FE11848B809C072C /* PersonModel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PersonModel/PersonModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PersonModel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PersonModel/PersonModel.modulemap";
-				PRODUCT_MODULE_NAME = PersonModel;
-				PRODUCT_NAME = PersonModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E1613289217A2FCC661C9C2905FFBFAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7102073009C60AB52EBC0D07C20652A5 /* Pods-PersonModel_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonModel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonModel_Tests/Pods-PersonModel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ED27502881DC4EF75A17353F55ABFB97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5CD16EFA739D0C2F3705CC1CC177828 /* XPRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XPRouter/XPRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XPRouter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XPRouter/XPRouter.modulemap";
-				PRODUCT_MODULE_NAME = XPRouter;
-				PRODUCT_NAME = XPRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		139DFB4B43801BB54DEEB05918EA0156 /* Build configuration list for PBXNativeTarget "XPRouterPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571933444E35B9171DFF8A27D67D49ED /* Debug */,
+				2FD3EDB7B3DD0901DF0647E19E41E194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38CFF5F728146DAD2054BB8C3B21E743 /* Build configuration list for PBXNativeTarget "XPRouter" */ = {
+		4AC2FFD1E1ABF800D7E3F6014DCA01EB /* Build configuration list for PBXNativeTarget "PersonModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				101F1FF4CFA4B025CAB8701A9B221DA0 /* Debug */,
-				ED27502881DC4EF75A17353F55ABFB97 /* Release */,
+				06CA7E7FBABBFA1A1D888E82FE150568 /* Debug */,
+				0B8300D0169FDDEB33BF5F22E7A873B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7477DCA2E8C47361B11A8E161D1DCD7E /* Build configuration list for PBXNativeTarget "Pods-PersonModel_Tests" */ = {
+		A01D9C24D9B2C8387212159FB9E71E27 /* Build configuration list for PBXNativeTarget "XPRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B67C86CA63C27774347CC4348BC421F /* Debug */,
-				E1613289217A2FCC661C9C2905FFBFAF /* Release */,
+				AAFBE6191D04B1FB3F83E7F896D281C0 /* Debug */,
+				D0B5011140D1ABB66D902FC7825F0F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4EAEF6360D3F006DACF99DFD678696C /* Build configuration list for PBXNativeTarget "PersonModel" */ = {
+		DCAEC0F4B1253B98D62664827D47C2A6 /* Build configuration list for PBXNativeTarget "Pods-PersonModel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57B9FA77BE848D5219F6C09BD08AD245 /* Debug */,
-				DF2A767F890ED0552F955BF72A7BAE94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F493FB187F538C4C3A63246489FB53DA /* Build configuration list for PBXNativeTarget "Pods-PersonModel_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86C610501B38B7E77B2ED5784D41363D /* Debug */,
-				1703BAE119065A7CF441E28A08A0F809 /* Release */,
+				A3851CB3A76ED32704B8A9616E664C4C /* Debug */,
+				7997521D6B5C8B8B25DE59A27C2F4A09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

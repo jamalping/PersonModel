@@ -1,8 +1,8 @@
 //
 //  URLRouterType.swift
-//  AKRouter
+//  XPRouter
 //
-//  Created by shayuan on 2018/5/23.
+//  Created by jamalping on 2018/5/23.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ public typealias URLOpenHandler = () -> Bool
 
 public protocol URLRouterType {
     var matcher: URLMatcher { get }
-    weak var delegate: URLRouterDelegate? { get set }
+    var delegate: URLRouterDelegate? { get set }
     
     /// 给URL模式注册一个返回ViewController的处理闭包.
     func register(_ pattern: URLPattern, _ factory: @escaping ViewControllerFactory)

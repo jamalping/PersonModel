@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import XPRouter
+import XPRouterPath
 
 class LoginViewController: UIViewController {
     
@@ -14,9 +16,14 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        title = "login"
     }
     
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        
+        router.push(HomePath.home)
+    }
     
     /// 输出 paramters
     func printParamters() -> Void {

@@ -5,7 +5,7 @@
 //  Created by jamalping on 2018/7/30.
 //
 
-
+// swiftlint:disable trailing_whitespace
 import Foundation
 
 public struct LoginPath {
@@ -16,12 +16,12 @@ public struct LoginPath {
     }
     
     //邀请码
-    public static var referral: String{
+    public static var referral: String {
         return "ak://personal/referral/<int:newType>"
     }
     
     //初始化选择语言
-    public static var selectLanguage: String{
+    public static var selectLanguage: String {
         return "ak://selectLanguage"
     }
 }
@@ -31,14 +31,12 @@ public struct PersonalPath {
     public static let shippingAddressEditContextKey = "shippingAddressEditContextKey"
     
     // 需要在context中传递json字符串过来
-    public static var shippingAddressEdit: String{
+    public static var shippingAddressEdit: String {
         return "ak://shippingAddressEdit"
     }
     
     // 地址列表页面
-    public static var shippingAddressList: String{
+    public static var shippingAddressList: String {
         return "ak://shippingAddressList"
     }
 }
-
-

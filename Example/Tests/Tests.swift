@@ -1,5 +1,4 @@
 import XCTest
-import PersonModel
 
 class Tests: XCTestCase {
     
