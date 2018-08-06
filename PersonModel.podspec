@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'PersonModel'
-  s.version      = '0.2.0'
+  s.version      = '0.2.1'
   s.summary      = 'PersonModel.'
 
   s.description  = <<-DESC
